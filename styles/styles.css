@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap'); Para h3 */ 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap'); 
 
 body {
     font-family: 'IBM Plex Mono', monospace;
@@ -20,6 +20,7 @@ h2 {
 
 h3 {
     font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
 }
 
 p{
