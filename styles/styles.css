@@ -13,40 +13,111 @@ body {
     margin:0;
 }
 
+/* HEADER  */
 #nav{
     display: flex;
-    margin: 10px 5% 10px 5%;
     justify-content:space-between;
+    padding: 5%;
 }
+/* HEADER  */
 
-#section-1 #boton{
-    margin-left: 5%;
-    margin-bottom: 10%;
+/* MAIN  */
+
+/* section 1 */
+#section-1{
+    display: block;
+    padding: 1rem;
+    margin: 0;
 }
-
-#boton {
-    background: #00F3BB;
-    text-decoration: none;
-    width: 288px;
-    height: 48px;
-}
-
-#boton:hover{
-    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
-    color: #ffffff;
-}
-
-h1, 
-h2 {
-    margin-left: 5%;
-    margin-bottom: 5%;
+h1 {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 36px;
     letter-spacing: 0;
     line-height: 42px;
-    width: 250px; /*salto de linea del titulo*/
+    margin: 0;
 }
+p{
+    font-family: 'IBMPlexMono', monospace;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    padding: 1rem;
+    margin: 0%;
+}
+#boton a{
+    font-family: 'IBMPlexMono', monospace;
+    display: block;
+    background-color: #00f3bb;
+    color: #060a24;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 12px 48px;
+}
+#boton a:hover{
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    color: #ffffff;
+}
+/* section 1 */
 
+/* section 2 */
+h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 42px;
+    padding: 1rem;
+    margin: 0;
+}
+.bgblue{
+    padding: 65px 0 130px 0;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    clip-path: polygon(0 4%, 100% 0, 100% 96%, 0% 100%);
+    color: #ffffff; 
+}
+.spotify div {
+    padding: 1rem;
+}
+/* section 2 */
+
+/* section 3 */
+#nosotros #parrafo p{
+    padding: 8px 1rem;
+}
+#phone{
+    position: relative;
+    z-index: 1;
+    margin-top: -100px;
+    width: 100%;
+    height: auto;
+}
+/* section 3 */
+
+/* section 4 */
+#entrevistas h2 {
+    padding: 4rem 1rem 15px;
+}
+#entrevistas img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+/* section 4 */
+
+/* section 5 */
+#topicos h2{
+    width: 100%;
+    padding: 4rem 1rem 15px;
+}
+#topicos .img-h3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 h3{
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 24px;
@@ -55,80 +126,9 @@ h3{
     text-align: center;
     font-weight: 600;
 }
+/* section 5 */
 
-p{
-    font-family: 'IBMPlexMono', monospace;
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: 22px;
-    margin: 0.3% 5% 10% 5%;
-}
-
-#especial{
-    font-family: 'IBMPlexMono', monospace;
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: 22px;
-    margin: 0.3% 5% 4% 5%;
-}
-
-.bgblue{
-    padding: 35px 0 130px 0;
-    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-    clip-path: polygon(0 4%, 100% 0, 100% 96%, 0% 100%);
-    color: #ffffff; 
-}
-
-.bgblue2{
-    padding: 30px 0 80px 0;
-    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-    clip-path: polygon(0 12%, 100% 0, 100% 100%, 0% 100%);
-    color: #ffffff; 
-}
-
-.spotify div {
-    /* width: 298px; */
-    /* height: 225px; */
-    padding: 1rem;
-    /* margin-left: 3%;
-    margin-bottom: -52px; */
-}
-
-#phone{
-    position: relative;
-    z-index: 1;
-    margin-top: -100px;
-    /* margin-left: -20px; */
-    width: 100%;
-    height: auto;
-}
-
-#entrevistas img {
-    max-width: 100%;
-    height: auto;
-    vertical-align: top;
-}
-
-#topicos h2{
-    width: 100%;
-}
-
-.icon{
-    margin-top: 8%;
-    margin-bottom: -3%;
-}
-#topicos .img-h3{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#topicos .img-h3 #salto{
-   width: 200px;
-   text-align: center;
-}
-
+/* section 6 */
 #white-center{
     display: flex;
     flex-direction: column;
@@ -136,28 +136,34 @@ p{
     align-items: center;
     justify-content: center;
 }
+.bgblue2{
+    padding: 30px 0 80px 0;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    clip-path: polygon(0 12%, 100% 0, 100% 100%, 0% 100%);
+    color: #ffffff; 
+}
+/* section 6 */
 
+/* MAIN */
+
+/* FOOTER  */
 footer{
-    margin: 20px 0 0 0;
     text-align: center;
     align-items: center;
 }
-
 h6{
     font-family: 'IBM Plex Mono', monospace;
     font-size: 14px;
     color: #060A24;
     letter-spacing: 0;
     line-height: 22px;
+    padding: 15px;
+    margin: 0;
 }
 #redes i{
-    padding: 15px;
     color: #060A24;
     letter-spacing: 0;
     line-height: 5px;
+    padding: 15px 15px 30px 15px;
 }
-
-#nostros div{
-    margin: 0 auto;
-
-}
+/* FOOTER  */
