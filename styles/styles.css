@@ -41,12 +41,12 @@ p{
     font-size: 14px;
     letter-spacing: 0;
     line-height: 22px;
-    padding: 1rem;
+    padding: 1rem 0;
     margin: 0%;
 }
 #boton a{
-    font-family: 'IBMPlexMono', monospace;
     display: block;
+    font-family: 'IBMPlexMono-Medium', monospace;
     background-color: #00f3bb;
     color: #060a24;
     font-size: 18px;
@@ -79,7 +79,7 @@ h2 {
     color: #ffffff; 
 }
 .spotify div {
-    padding: 1rem;
+    padding: 0.2rem 1rem;
 }
 /* section 2 */
 
