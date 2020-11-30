@@ -1,19 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap'); 
-
-
-*,
-*:before, *:after{
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'IBM Plex Mono', monospace;
-    color: #060A24;
-    margin:0;
-}
-
 /* HEADER  */
 #nav{
     display: flex;
@@ -45,23 +29,21 @@ p{
     padding: 1rem 0;
     margin: 0%;
 }
-#boton a{
-    display: block;
-    font-family: 'IBMPlexMono-Medium', monospace;
-    background-color: #00f3bb;
-    color: #060a24;
-    font-size: 18px;
-    letter-spacing: 0;
-    line-height: 24px;
-    text-align: center;
-    text-decoration: none;
-    /* border: 1px solid transparent; */
-    padding: 12px 48px;
-}
-#boton a:hover{
-    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
-    color: #ffffff;
-}
+#boton{
+    a{
+        display: block;
+        font-family: 'IBMPlexMono-Medium', monospace;
+        background-color: #00f3bb;
+        color: #060a24;
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: 24px;
+        text-align: center;
+        text-decoration: none;
+        /* border: 1px solid transparent; */
+        padding: 12px 48px; 
+    }
+} 
 /* section 1 */
 
 /* section 2 */
@@ -79,14 +61,18 @@ h2 {
     clip-path: polygon(0 4%, 100% 0, 100% 96%, 0% 100%);
     color: #ffffff; 
 }
-.spotify div {
-    padding: 0.2rem 1rem;
+.spotify {
+    div {
+       padding: 0.2rem 1rem;
+    }
 }
 /* section 2 */
 
 /* section 3 */
-#nosotros #parrafo p{
-    padding: 8px 1rem;
+#nosotros {
+    p{
+        padding: 8px 1rem;
+    }
 }
 #phone{
     position: relative;
@@ -98,28 +84,36 @@ h2 {
 /* section 3 */
 
 /* section 4 */
-#entrevistas h2 {
-    padding: 4rem 1rem 15px;
+#entrevistas {
+    h2 {
+        padding: 4rem 1rem 15px;
+    }
 }
-#entrevistas img {
-    max-width: 100%;
-    height: auto;
-    vertical-align: top;
+#entrevistas{
+    img {
+        height: auto;
+        max-width: 100%;
+        vertical-align: top;
+    }
 }
 /* section 4 */
 
 /* section 5 */
-#topicos h2{
-    width: 100%;
-    padding: 4rem 1rem 15px;
+#topicos {
+    h2{
+        width: 100%;
+        padding: 4rem 1rem 15px;
+    }
 }
-#topicos .img-h3{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+#topicos {
+    .img-h3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
-h3{
+h3 {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 24px;
     color: #060A24;
@@ -162,10 +156,12 @@ h6{
     padding: 15px;
     margin: 0;
 }
-#redes i{
-    color: #060A24;
-    letter-spacing: 0;
-    line-height: 5px;
-    padding: 15px 15px 30px 15px;
+#redes {
+    i{
+        color: #060A24;
+        letter-spacing: 0;
+        line-height: 5px;
+        padding: 15px 15px 30px 15px;
+    }
 }
 /* FOOTER  */
