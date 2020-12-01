@@ -1,4 +1,32 @@
 @media (min-width:960px){
+    header{
+        display: flex;
+        height: 80px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu{
+        input, span{
+            display: none;
+        }
+        ul{
+            position: static;
+            background: transparent;
+            height: auto;
+            opacity: 1;
+        }
+        li{
+            display: inline-block;
+            padding: 5px 10px;
+        }
+        a{
+            color: #060A24;
+            pointer-events: auto;
+            &:hover{
+                color: #00F3BB
+            }
+        }
+    }
     h1{
         font-size: 64px;
     }
