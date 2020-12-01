@@ -5,7 +5,6 @@ header {
   padding: 10px 5%;
   overflow: hidden;
 }
-
 header {
   img {
     float: left;
@@ -14,7 +13,6 @@ header {
     float: right;
   }
 }
-
 .menu {
   ul {
     position: absolute;
@@ -25,6 +23,7 @@ header {
     height: 0;
     opacity: 0;
     margin: 0;
+    padding-left: 0;
     li{
         list-style-type: none;
     }
@@ -63,7 +62,6 @@ input[type="checkbox"] {
   z-index: 2;
   opacity: 0;
 }
-
 input[type="checkbox"]:checked ~ ul {
   opacity: 1;
   height: auto;
@@ -81,7 +79,6 @@ input[type="checkbox"]:checked ~ span:nth-last-child(2) {
 input[type="checkbox"]:checked ~ span:nth-last-child(3) {
   opacity: 0;
 }
-
 /* HEADER  */
 
 /* MAIN  */

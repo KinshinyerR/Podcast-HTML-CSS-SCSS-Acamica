@@ -27,6 +27,21 @@
             }
         }
     }
+    #episodios{
+        h2{
+            padding-left: 15vw;
+        }
+    }
+    .spotify{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 2rem;
+        div{
+            padding: 2rem;
+            flex-basis: 50%;
+        }
+    }
+
     h1{
         font-size: 64px;
     }

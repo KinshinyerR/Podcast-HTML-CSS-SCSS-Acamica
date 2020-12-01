@@ -37,6 +37,7 @@ header nav {
   height: 0;
   opacity: 0;
   margin: 0;
+  padding-left: 0;
 }
 
 .menu ul li {
@@ -286,6 +287,18 @@ h6 {
   }
   .menu a:hover {
     color: #00F3BB;
+  }
+  #episodios h2 {
+    padding-left: 15vw;
+  }
+  .spotify {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 2rem;
+  }
+  .spotify div {
+    padding: 2rem;
+    flex-basis: 50%;
   }
   h1 {
     font-size: 64px;
