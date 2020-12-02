@@ -89,6 +89,9 @@ input[type="checkbox"]:checked ~ span:nth-last-child(3) {
   padding: 1rem;
   margin: 0;
 }
+#parrafoDesktop{
+    display: none;
+}
 h1 {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 36px;
@@ -125,6 +128,11 @@ p {
 #episodios {
   padding: 65px 0 130px 0;
 }
+.bgblue{
+    background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
+    clip-path: polygon(0 4%, 100% 0, 100% 96%, 0% 100%);
+    color: #ffffff;
+}
 h2 {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 36px;
@@ -132,11 +140,6 @@ h2 {
   line-height: 42px;
   padding: 1rem;
   margin: 0;
-}
-.bgblue {
-  background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
-  clip-path: polygon(0 4%, 100% 0, 100% 96%, 0% 100%);
-  color: #ffffff;
 }
 .spotify {
   div {
@@ -179,16 +182,24 @@ h2 {
 #topicos {
   h2 {
     width: 100%;
-    padding: 4rem 1rem 15px;
+    padding: 4rem 1rem 35px;
   }
 }
 #topicos {
-  .img-h3 {
+  .img-top {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
+  .img-h3{
+    text-align: center;
+    align-items: center;
+    padding: 10px 0;
+    h3{
+        margin-top: 0;
+    }
+}
 }
 h3 {
   font-family: "IBM Plex Sans", sans-serif;
@@ -207,10 +218,9 @@ h3 {
   text-align: center;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
+  padding: 40px 1rem 70px 1rem;
 }
 .bgblue2 {
-  padding: 30px 0 80px 0;
   background-image: linear-gradient(225deg, #0000ff 0%, #0000a3 100%);
   clip-path: polygon(0 12%, 100% 0, 100% 100%, 0% 100%);
   color: #ffffff;
