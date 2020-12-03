@@ -64,7 +64,7 @@ input[type="checkbox"] {
 input[type="checkbox"]:checked ~ ul {
   display: block;
   height: auto;
-  .nav-vertical {
+  a{
     pointer-events: auto;
   }
 }
@@ -197,19 +197,19 @@ h2 {
     text-align: center;
     align-items: center;
     padding: 10px 0;
-    h3{
-        margin-top: 0;
+    h3 {
+      font-family: "IBM Plex Sans", sans-serif;
+      font-size: 24px;
+      color: #060a24;
+      letter-spacing: 0;
+      text-align: center;
+      font-weight: 600;
+      margin-top: 0;
+      padding: 8px;
     }
+  }
 }
-}
-h3 {
-  font-family: "IBM Plex Sans", sans-serif;
-  font-size: 24px;
-  color: #060a24;
-  letter-spacing: 0;
-  text-align: center;
-  font-weight: 600;
-}
+
 /* section 5 */
 
 /* section 6 */

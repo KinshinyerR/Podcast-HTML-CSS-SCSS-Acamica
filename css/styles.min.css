@@ -86,7 +86,7 @@ input[type="checkbox"]:checked ~ ul {
   height: auto;
 }
 
-input[type="checkbox"]:checked ~ ul .nav-vertical {
+input[type="checkbox"]:checked ~ ul a {
   pointer-events: auto;
 }
 
@@ -222,16 +222,14 @@ h2 {
 }
 
 #topicos .img-h3 h3 {
-  margin-top: 0;
-}
-
-h3 {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 24px;
   color: #060a24;
   letter-spacing: 0;
   text-align: center;
   font-weight: 600;
+  margin-top: 0;
+  padding: 8px;
 }
 
 /* section 5 */
