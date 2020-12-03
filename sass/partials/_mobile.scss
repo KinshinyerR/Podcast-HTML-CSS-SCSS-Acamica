@@ -19,14 +19,14 @@ header {
     width: 100%;
     background: #0000ec;
     height: 0;
-    opacity: 0;
+    display: none;
     margin: 0;
     padding-left: 0;
     li{
         list-style-type: none;
     }
   }
-  .nav-vertical{
+  a {
     display: block;
     font-family: "IBM Plex Mono", monospace;
     font-size: 16px;
@@ -62,7 +62,7 @@ input[type="checkbox"] {
   margin: 0;
 }
 input[type="checkbox"]:checked ~ ul {
-  opacity: 1;
+  display: block;
   height: auto;
   .nav-vertical {
     pointer-events: auto;
@@ -110,7 +110,7 @@ p {
   padding: 1rem 0;
   margin: 0%;
 }
-#boton {
+.boton {
   a {
     display: block;
     font-family: "IBMPlexMono-Medium", monospace;
@@ -121,7 +121,6 @@ p {
     line-height: 24px;
     text-align: center;
     text-decoration: none;
-    border: 1px solid transparent;
     padding: 12px 48px;
   }
 }

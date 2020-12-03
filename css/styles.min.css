@@ -34,7 +34,7 @@ header nav {
   width: 100%;
   background: #0000ec;
   height: 0;
-  opacity: 0;
+  display: none;
   margin: 0;
   padding-left: 0;
 }
@@ -43,7 +43,7 @@ header nav {
   list-style-type: none;
 }
 
-.menu .nav-vertical {
+.menu a {
   display: block;
   font-family: "IBM Plex Mono", monospace;
   font-size: 16px;
@@ -82,7 +82,7 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked ~ ul {
-  opacity: 1;
+  display: block;
   height: auto;
 }
 
@@ -138,7 +138,7 @@ p {
   margin: 0%;
 }
 
-#boton a {
+.boton a {
   display: block;
   font-family: "IBMPlexMono-Medium", monospace;
   background-color: #00f3bb;
@@ -148,7 +148,6 @@ p {
   line-height: 24px;
   text-align: center;
   text-decoration: none;
-  border: 1px solid transparent;
   padding: 12px 48px;
 }
 
@@ -296,7 +295,7 @@ h6 {
     position: static;
     background: transparent;
     height: auto;
-    opacity: 1;
+    display: block;
   }
   .menu li {
     display: inline-block;
@@ -335,17 +334,16 @@ h6 {
     margin-top: 10px;
     width: 570px;
   }
-  #section-1 #boton {
+  #section-1 .boton {
     padding-top: 35px;
     width: 226px;
     height: 56px;
-    border: 1px solid transparent;
   }
-  #section-1 #boton a:hover {
+  #section-1 .boton a:hover {
     background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
     color: #ffffff;
   }
-  #section-1 #boton a {
+  #section-1 .boton a {
     font-size: 18px;
   }
   #episodios {

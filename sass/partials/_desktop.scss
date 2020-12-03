@@ -17,7 +17,8 @@
             position: static;
             background: transparent;
             height: auto;
-            opacity: 1;
+            // opacity: 1;
+            display: block;
         }
         li{
             display: inline-block;
@@ -57,11 +58,10 @@
             margin-top: 10px;
             width: 570px;
         }
-        #boton{
+        .boton{
             padding-top: 35px;
             width: 226px;
             height: 56px;
-            border: 1px solid transparent;
             a:hover{
                 background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
                 color: #ffffff;
