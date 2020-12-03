@@ -124,6 +124,10 @@ h1 {
   margin: 0;
 }
 
+#sub {
+  text-decoration: line-through;
+}
+
 p {
   font-family: "IBMPlexMono", monospace;
   font-size: 14px;
@@ -324,7 +328,7 @@ h6 {
   #section-1 h1 {
     font-size: 64px;
   }
-  #section-1 span {
+  #section-1 #punto {
     color: #0000EC;
   }
   #section-1 #parrafoMobile {
