@@ -304,6 +304,12 @@ h6 {
   }
   .menu a:hover {
     color: #00F3BB;
+    text-decoration: line-through;
+  }
+  .menu a:active {
+    color: rgba(6, 10, 36, 0.56);
+    letter-spacing: 0;
+    line-height: 28px;
   }
   #boton a:hover {
     background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);

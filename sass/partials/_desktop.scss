@@ -27,7 +27,13 @@
             color: #060A24;
             pointer-events: auto;
             &:hover{
-                color: #00F3BB
+                color: #00F3BB;
+                text-decoration: line-through;
+            }
+            &:active {
+                color: rgba(6,10,36,0.56);
+                letter-spacing: 0;
+                line-height: 28px;
             }
         }
     }
