@@ -4,8 +4,6 @@ header {
   height: 50px;
   padding: 10px 5%;
   overflow: hidden;
-}
-header {
   img {
     float: left;
   }
@@ -28,7 +26,7 @@ header {
         list-style-type: none;
     }
   }
-  a {
+  .nav-vertical{
     display: block;
     font-family: "IBM Plex Mono", monospace;
     font-size: 16px;
@@ -66,7 +64,7 @@ input[type="checkbox"] {
 input[type="checkbox"]:checked ~ ul {
   opacity: 1;
   height: auto;
-  a {
+  .nav-vertical {
     pointer-events: auto;
   }
 }
