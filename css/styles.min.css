@@ -315,10 +315,6 @@ h6 {
     letter-spacing: 0;
     line-height: 28px;
   }
-  #boton a:hover {
-    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
-    color: #ffffff;
-  }
   p {
     font-size: 16px;
   }
@@ -345,7 +341,11 @@ h6 {
     height: 56px;
     border: 1px solid transparent;
   }
-  #boton a {
+  #section-1 #boton a:hover {
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    color: #ffffff;
+  }
+  #section-1 #boton a {
     font-size: 18px;
   }
   #episodios {
