@@ -2,7 +2,7 @@
 header {
   width: 100%;
   height: 50px;
-  padding: 10px 6%;
+  padding: 10px 5%;
   overflow: hidden;
 }
 header {
@@ -61,6 +61,7 @@ input[type="checkbox"] {
   position: absolute;
   z-index: 2;
   opacity: 0;
+  margin: 0;
 }
 input[type="checkbox"]:checked ~ ul {
   opacity: 1;
