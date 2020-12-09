@@ -1,3 +1,8 @@
+/*
+
+Esta hoja de estilo la dejo para visualizar el avance que tuve a la hora de aplicar estilos 
+
+
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap'); 
@@ -14,17 +19,17 @@ body {
     margin:0;
 }
 
-/* HEADER  */
+/* HEADER 
 #nav{
     display: flex;
     justify-content:space-between;
     padding: 5%;
 }
-/* HEADER  */
+/* HEADER  
 
-/* MAIN  */
+/* MAIN  
 
-/* section 1 */
+/* section 1 
 #section-1{
     display: block;
     padding: 1rem;
@@ -55,16 +60,16 @@ p{
     line-height: 24px;
     text-align: center;
     text-decoration: none;
-    /* border: 1px solid transparent; */
+    /* border: 1px solid transparent;
     padding: 12px 48px;
 }
 #boton a:hover{
     background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
     color: #ffffff;
 }
-/* section 1 */
+/* section 1 
 
-/* section 2 */
+/* section 2 
 h2 {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 36px;
@@ -82,9 +87,9 @@ h2 {
 .spotify div {
     padding: 0.2rem 1rem;
 }
-/* section 2 */
+/* section 2 
 
-/* section 3 */
+/* section 3 
 #nosotros #parrafo p{
     padding: 8px 1rem;
 }
@@ -95,9 +100,9 @@ h2 {
     width: 100%;    
     height: auto;
 }
-/* section 3 */
+/* section 3 
 
-/* section 4 */
+/* section 4 
 #entrevistas h2 {
     padding: 4rem 1rem 15px;
 }
@@ -106,9 +111,9 @@ h2 {
     height: auto;
     vertical-align: top;
 }
-/* section 4 */
+/* section 4 
 
-/* section 5 */
+/* section 5 
 #topicos h2{
     width: 100%;
     padding: 4rem 1rem 15px;
@@ -127,9 +132,9 @@ h3{
     text-align: center;
     font-weight: 600;
 }
-/* section 5 */
+/* section 5 
 
-/* section 6 */
+/* section 6 
 #section6{
     display: flex;
     flex-direction: column;
@@ -144,11 +149,11 @@ h3{
     clip-path: polygon(0 12%, 100% 0, 100% 100%, 0% 100%);
     color: #ffffff; 
 }
-/* section 6 */
+/* section 6 
 
-/* MAIN */
+/* MAIN
 
-/* FOOTER  */
+/* FOOTER 
 footer{
     text-align: center;
     align-items: center;
@@ -168,4 +173,4 @@ h6{
     line-height: 5px;
     padding: 15px 15px 30px 15px;
 }
-/* FOOTER  */
+FOOTER */
